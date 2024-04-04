@@ -23,4 +23,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Push image to Docker Hub
-      run: docker push agaid1mnjh45@gmail.com/gptnextweb
+      run: docker push agaid1mnjh45/gptnextweb:latest
