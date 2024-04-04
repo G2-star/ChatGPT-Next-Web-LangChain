@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build Docker image
-      run: docker build . -t agaid1mnjh45@gmail.com/gptnextweb
+      run: docker build . -t agaid1mnjh45/gptnextweb
 
     # 可选: 推送镜像到 Docker Hub
     - name: Log in to Docker Hub
